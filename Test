@@ -1,1 +1,4 @@
-Test
+#Mounted at google drive
+from google.colab import drive
+drivePath = '/content/drive' #please do not change
+drive.mount(drivePath)
